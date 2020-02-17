@@ -1,0 +1,144 @@
+<!DOCTYPE HTML>
+<!--
+	Ethereal by HTML5 UP
+-->
+<html>
+
+<head>
+	<title>Ethereal by HTML5 UP</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<link rel="stylesheet" href="assets/css/main.css" />
+	<noscript>
+		<link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+</head>
+
+<body class="is-preload">
+
+	<!-- Page Wrapper -->
+	<div id="page-wrapper">
+
+		<!-- Wrapper -->
+		<div id="wrapper">
+
+			<!-- Panel (Banner) -->
+			<section class="panel banner right">
+				<div class="content color0 span-3-75">
+					<h1 class="major"><em>Welcome!</em></h1>
+					<p><i><strong>This is my first project so be nice :)</strong> </i>
+					</p>
+					<ul class="actions">
+						<li><a href="#first" class="button primary color1 circle icon solid fa-angle-right">Next</a>
+						</li>
+					</ul>
+				</div>
+				<div class="image filtered span-1-75" data-position="25% 25%">
+					<img src="images/pic01.jpg" alt="" />
+				</div>
+			</section>
+
+			<!-- Panel (Spotlight) -->
+			<section class="panel spotlight medium top" id="first">
+				<div class="content span-7">
+					<h2 class="major"><em><u>Personal Information</u></em></h2>
+					<i>
+						<p>My name is Tihomir Tanev and i currently live in Sofia, Bulgaria. My main interests are
+							closely related to software engineering that`s why i decided to expand my technical skills
+							and in January 2020 i successfully graduated in Software Testing (Foundation Level) at <a
+								href="https://pragmatic.bg/courses/software-testing-course/"><strong>Pragmatic IT
+									Center.</strong></a> Now i`m seeking to find the opportunity
+							to work in challenging working environment that will encourage me to improve and learn new
+							and necessary skills as well as be motivated by the company to do my best for the sake of
+							helping the company advance in the software engineering industry.
+					</i></p>
+					<div>
+						<h4><em><u>Contacts</u></em></h4>
+					</div>
+					<ul class="icons">
+						<li><a href="https://www.linkedin.com/in/tihomir-tanev-57b861174/"
+								class="icon brands fa-linkedin"><span class="label">linkedin</span></a></li>
+						<li><a href="https://github.com/Tiheca" class="icon brands fa-github"><span
+									class="label">GitHub</span></a></li>
+						<li><a href="mailto:tanevt87@gmail.com" class="icon solid fa-envelope"><span
+									class="label">gmail</span></a></li>
+					</ul>
+				</div>
+				<div class="image filtered tinted" data-position="top left">
+					<img src="images/pic02.jpg" alt="" />
+				</div>
+			</section>
+			<!-- Panel (Spotlight) -->
+			<section class="panel spotlight top right">
+				<div class="content span-15">
+					<h3 class="major"><u>Bug Report - Parking Cost Calculator</u></h3>
+					<p><strong>Title:</strong> Missing format validation in time fields</p>
+					<div><strong>Priority:</strong> High</div>
+					<div><strong>Severity:</strong> High</div>
+					<p></p>
+					<p><strong> Description:</strong> Wrong date format.</P>
+					<div><strong>Step to reproduce:</strong></div>
+					<li>Navigate to <a href="http://www.shino.de/parkcalc/"><b>http://www.shino.de/parkcalc/</b></a>
+					</li>
+					<li>In “Choose a Parking Lot” section leave it by default. Should contain text “Valet Parking”
+					</li>
+					<li>Type 1/16/2020 in “input entry date” field then type “Two” in “input entry time” field.
+						Checkbox is already checked
+						on “AM”. Leave it by default.</li>
+					<li>Type 1/16/2020 in “output entry date” field then type “Five” in “output entry time” field.
+						Checkbox is already
+						checked on “AM”. Leave it by default.</li>
+					<li>Click on submit button should contain text “Calculate”</li>
+					<p></p>
+					<div><strong>ER:</strong> A string shouldn't be accepted as input/output in a time field.Format
+						validation message
+						should be displayed</div>
+					<div><strong>AR:</strong> Wrong date format is accepted. No error message is displayed.</div>
+				</div>
+				<div class="image filtered tinted" data-position="top right">
+					<img src="images/bg.jpg" alt="" />
+				</div>
+			</section>
+
+			<!-- Panel (Spotlight) -->
+			<section class="panel spotlight top right">
+				<div class="content span-15">
+					<h3 class="major"><u>Test Case - Inv.bg</u></h3>
+					<p><strong>Title:</strong> Add new client with valid data
+					</p>
+					<div><strong>Priority:</strong> High</div>
+					<div><strong>Preconditions:</strong> User must be registered and logged in to <a
+							href="https://inv.bg/"><b>https://inv.bg</b></a>
+					</div>
+					<p></p>
+					<p><strong> Description:</strong> To check that can add new client with valid data.</P>
+					<div><strong>Test Steps:</strong></div>
+					<li>Navigate to <a href="https://inv.bg/"><b>https://inv.bg</b></a> / Homepage is loaded
+					</li>
+					<li>Change the language from the dropdown to „BG” / The language should be changed to Bulgarian
+					</li>
+					<li>Click on section “Клиенти” / „Клиенти“ section is loaded.</li>
+					<li>Click on Client button should contain text "Нов клиент" / “Нов клиент“ link should be visible
+						and ready to be filled in </li>
+					<li>Choose “Фирма“ in the option type and Type “Тихомир ЕООД“ in “Име на фирма“ field and type
+						“София“ in “Адрес по регистрация“ field then click on registration button should contain text
+						“Добави клиента“ / “Клиентът е добавен успешно” message should be displayed</li>
+					<li>Go back to „Клиент“ section / “Client with name “Тихомир ЕООД“ should be visible
+					</li>
+					<p></p>
+					<div><strong>ER:</strong> New client should be added successfully in "Client" section.</div>
+				</div>
+				<div class="image filtered span-3-75" data-position="top right">
+					<img src="images/pic01.jpg" alt="" />
+				</div>
+			</section>
+
+
+			<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
